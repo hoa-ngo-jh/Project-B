@@ -39,10 +39,29 @@ h2 {
 }
 
 header {
-  background-image: url('img/Clip.png');
+  background-image: url('img/Clipp.png');
   height: 1243px;
   background-position: center;
   background-size: cover;
+}
+
+.sticky {
+  background: var(--dark-blue);
+  height: 80px;
+  box-shadow: 0 2px 10px -1px rgb(200 193 164 / 35%);
+  border: 0;
+  margin-right: 65px;
+  transition: all .1s ease-out;
+}
+
+.sticky .main-nav {
+  margin-top: 30px;
+}
+
+.sticky .logo {
+  transform: rotate(-90deg);
+  margin-top: -15px;
+  margin-right: 75px;
 }
 
 .main-nav {
@@ -116,7 +135,7 @@ header {
 .hero-text-box {
   position: absolute;
   top: 60%;
-  left: 5%;
+  left: 6%;
 }
 
 .hero-text-box h1 {
@@ -185,7 +204,7 @@ header {
 
 .side-left {
   background-color: var(--orange);
-  padding: 50px 15px 10px 15px;
+  padding: 50px 24px;
 }
 
 .side-left h2,
@@ -216,7 +235,7 @@ header {
 
 .side-right div {
   width: 100%;
-  padding: 15px 25px 15px 15px;
+  padding: 50px 24px;
 }
 
 .side-right h2,
@@ -243,7 +262,7 @@ header {
 .melbourne {
   position: relative;
   margin: -21rem auto 2rem auto;
-  padding: 0 15px;
+  padding: 0 24px;
 }
 
 .melbourne h2 {
@@ -295,7 +314,7 @@ header {
   font-size: 25px;
   font-family: 'Raleway';
   font-weight: 300;
-  padding: 60px 40px 60px 15px;
+  padding: 70px 40px;
   background-color: var(--orange);
 }
 
@@ -307,7 +326,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--orange);
-  padding: 30px 0px;
+  padding: 30px 10px;
 }
 
 .content-child {
@@ -323,7 +342,7 @@ header {
   min-height: 265px;
   position: relative;
   background-color: var(--dark-blue);
-  padding: 60px 15px;
+  padding: 60px 10vw;
 }
 
 .take-action h2 {
