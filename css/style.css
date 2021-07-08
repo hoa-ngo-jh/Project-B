@@ -40,7 +40,7 @@ h2 {
 
 header {
   background-image: url('img/Clipp.png');
-  height: 1243px;
+  height: 120vh;
   background-position: center;
   background-size: cover;
 }
@@ -55,12 +55,13 @@ header {
 }
 
 .sticky .main-nav {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .sticky .logo {
+  transition: transform 300ms;
   transform: rotate(-90deg);
-  margin-top: -15px;
+  margin-top: -20px;
   margin-right: 75px;
 }
 
@@ -134,8 +135,8 @@ header {
 
 .hero-text-box {
   position: absolute;
-  top: 60%;
-  left: 6%;
+  top: 35%;
+  left: 10vw;
 }
 
 .hero-text-box h1 {
@@ -193,7 +194,7 @@ header {
 
 .bright-orange {
   left: 0;
-  top: -22rem;
+  /* top: -22rem; */
   margin-left: 0px;
   width: 100%;
 }
@@ -261,7 +262,7 @@ header {
 
 .melbourne {
   position: relative;
-  margin: -21rem auto 2rem auto;
+  margin: 2rem auto;
   padding: 0 24px;
 }
 
@@ -411,7 +412,7 @@ footer {
 }
 
 .link h5 {
-  color: var(--orange-main);
+  color: var(--orange);
   margin-bottom: 10px;
 }
 
@@ -422,7 +423,7 @@ footer {
 
 .link div,
 footer p {
-  padding: 50px;
+  padding: 35px;
 }
 
 .link ul {

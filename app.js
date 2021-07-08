@@ -4,7 +4,7 @@ var navbar = document.getElementById('my-header-top');
 var sticky = navbar.offsetTop;
 
 function setStickyHeader() {
-  if (window.pageYOffset >= 200) {
+  if (window.pageYOffset >= 150) {
     navbar.classList.add('sticky');
   } else {
     navbar.classList.remove('sticky');

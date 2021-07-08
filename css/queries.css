@@ -7,21 +7,23 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+    height: 65px;
   }
 
   .main-nav {
     display: block;
     margin-top: 60px;
+    margin-left: 10vw;
   }
 
   .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .hero-text-box {
     width: 405px;
-    top: 48%;
+    /* top: 48%; */
   }
 
   .side-left,
@@ -67,10 +69,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .hero-text-box {
-    top: 30%;
-  }
-
   .bright-orange {
     top: 0;
     justify-content: flex-end;
@@ -117,6 +115,10 @@
     margin-right: 11rem;
   }
 
+  .melbourne {
+    margin-top: -21rem;
+  }
+
   .contents {
     flex-wrap: nowrap;
   }
@@ -130,7 +132,7 @@
   }
 
   .words-such-bg {
-    min-height: 800px;
+    min-height: 100vh; 
     background-image: url('img/bg2.png');
     background-position: center;
     background-size: cover;
@@ -180,7 +182,7 @@
 
   .link div, 
   footer p {
-    padding: 50px 70px 50px 0;
+    padding: 60px 90px 50px 0;
   }
 
   footer p { 
@@ -189,15 +191,18 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero-text-box {
+  /* .hero-text-box {
     top: 67%;
+  } */
+  .bright-orange-wrapper {
+    transform: translateY(-42vh);
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .hero-text-box {
-    left: 9%; 
-    top: 64%;
+    /* left: 9%;  */
+    /* top: 64%; */
   }
 
   .hero-text-box h1 {
@@ -283,8 +288,8 @@
   }
 
   .hero-text-box {
-    left: 12%;
-    top: 30vh;
+    /* left: 12%; */
+    /* top: 30vh; */
   }
 
   .hero-text-box h1 {
@@ -322,10 +327,6 @@
 
   .side-left p {
     font-size: 18px;
-  }
-
-  .words-such-bg {
-    min-height: 105vh;
   }
 
   .words-such__container {
