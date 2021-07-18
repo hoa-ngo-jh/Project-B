@@ -43,6 +43,7 @@ header {
   height: 120vh;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .sticky {
@@ -185,6 +186,16 @@ header {
   opacity: 0.8;
 }
 
+.btn-con img,
+#arrow-right {
+  transition: all .5s ease-in-out;
+}
+
+.btn-con img:hover,
+#arrow-right:hover {
+  transform: scale(0.7);
+}
+
 /* BRIGHT ORANGE SECTION */
 
 .side {
@@ -257,6 +268,25 @@ header {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 12px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin-left: 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* MELBOURNE SECTION */

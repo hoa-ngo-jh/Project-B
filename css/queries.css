@@ -158,6 +158,7 @@
   .words-such-bg {
     min-height: 50vh; 
     background-image: url('img/bg2.png');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
   }
@@ -184,6 +185,7 @@
     position: relative;
     min-height: 800px;
     background-image: url('img/bg3.png');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin-left: 12%;
